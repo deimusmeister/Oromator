@@ -280,7 +280,7 @@
 
 -(void)startCounter
 {
-    mStartupDialogue = [[UIView alloc] initWithFrame:CGRectMake(self.view.frame.size.width / 2 - 150,100,300,300)];
+    mStartupDialogue = [[UIView alloc] initWithFrame:CGRectMake(self.view.frame.size.width / 2 - 150,25,300,300)];
     mStartupDialogue.layer.borderColor = [UIColor blackColor].CGColor;
     mStartupDialogue.layer.cornerRadius = 10.0f;
     mStartupDialogue.layer.borderWidth = 3.0f;
@@ -327,7 +327,7 @@
 
 -(void)youLooser
 {
-    mLooserDialogue = [[UIView alloc] initWithFrame:CGRectMake(self.view.frame.size.width / 2 - 150,100,300,300)];
+    mLooserDialogue = [[UIView alloc] initWithFrame:CGRectMake(self.view.frame.size.width / 2 - 150,25,300,300)];
     mLooserDialogue.layer.borderColor = [UIColor blackColor].CGColor;
     mLooserDialogue.layer.cornerRadius = 10.0f;
     mLooserDialogue.layer.borderWidth = 3.0f;
@@ -379,7 +379,7 @@
 
 -(void)youWinner
 {
-    mWinnerDialogue = [[UIView alloc] initWithFrame:CGRectMake(self.view.frame.size.width / 2 - 150,100,300,300)];
+    mWinnerDialogue = [[UIView alloc] initWithFrame:CGRectMake(self.view.frame.size.width / 2 - 150,25,300,300)];
     mWinnerDialogue.layer.borderColor = [UIColor blackColor].CGColor;
     mWinnerDialogue.layer.cornerRadius = 10.0f;
     mWinnerDialogue.layer.borderWidth = 3.0f;
