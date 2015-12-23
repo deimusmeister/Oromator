@@ -118,7 +118,7 @@
 {
     // Player
     NSMutableArray *pwalkFrames = [NSMutableArray array];
-    SKTextureAtlas *palyerAnimatedAtlas = [SKTextureAtlas atlasNamed:@"Orom"];
+    SKTextureAtlas *palyerAnimatedAtlas = [SKTextureAtlas atlasNamed:@"Player"];
     NSUInteger pnumImages = palyerAnimatedAtlas.textureNames.count;
     for (NSUInteger i= 0; i < pnumImages; i++) {
         NSString *textureName = [NSString stringWithFormat:@"tmp-%d", (int)i];
@@ -289,8 +289,8 @@
     
     startlabel = [[UILabel alloc] init];
     [startlabel setTranslatesAutoresizingMaskIntoConstraints:NO];
-    startlabel.text = @"The Match\nStarts in\n 5 seconds";
-    startlabel.numberOfLines = 3;
+    startlabel.text = @"The Match\nStarts in\n 5 seconds\nKeep tapping !";
+    startlabel.numberOfLines = 4;
     startlabel.textAlignment = NSTextAlignmentCenter;
     startlabel.font = [UIFont boldSystemFontOfSize:35];
     startlabel.tintColor = [UIColor blackColor];
@@ -315,7 +315,7 @@
 -(void)startupTimer
 {
     mStartupCounter = mStartupCounter - 1;
-    startlabel.text = [NSString stringWithFormat:@"The Match\nStarts in\n %ld seconds", mStartupCounter];
+    startlabel.text = [NSString stringWithFormat:@"The Match\nStarts in\n %ld seconds\nKeep tapping !", mStartupCounter];
     if (mStartupCounter == 0)
     {
         [mStartTimer invalidate];

@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F383B291C2AF2A5009CC5DB /* Orom.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 3F383B271C2AF2A5009CC5DB /* Orom.atlas */; settings = {ASSET_TAGS = (); }; };
+		3F383B2A1C2AF2A5009CC5DB /* Player.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 3F383B281C2AF2A5009CC5DB /* Player.atlas */; settings = {ASSET_TAGS = (); }; };
+		3F383B2C1C2AF514009CC5DB /* Field.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F383B2B1C2AF514009CC5DB /* Field.png */; settings = {ASSET_TAGS = (); }; };
 		3F7D1CCE1C29899000B4F9CD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F7D1CCD1C29899000B4F9CD /* main.m */; };
 		3F7D1CD11C29899000B4F9CD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F7D1CD01C29899000B4F9CD /* AppDelegate.m */; };
 		3F7D1CD41C29899000B4F9CD /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F7D1CD31C29899000B4F9CD /* GameScene.m */; };
@@ -15,13 +18,14 @@
 		3F7D1CDC1C29899000B4F9CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F7D1CDA1C29899000B4F9CD /* Main.storyboard */; };
 		3F7D1CDE1C29899000B4F9CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F7D1CDD1C29899000B4F9CD /* Assets.xcassets */; };
 		3F7D1CE11C29899000B4F9CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F7D1CDF1C29899000B4F9CD /* LaunchScreen.storyboard */; };
-		3F7D1CEA1C298B5400B4F9CD /* Field.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F7D1CE91C298B5400B4F9CD /* Field.png */; settings = {ASSET_TAGS = (); }; };
-		3F7D1D141C2995A500B4F9CD /* Orom.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 3F7D1D131C2995A500B4F9CD /* Orom.atlas */; settings = {ASSET_TAGS = (); }; };
 		3FE4C7611C29A85900A6B68E /* haha.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3FE4C75F1C29A85900A6B68E /* haha.m4a */; settings = {ASSET_TAGS = (); }; };
 		3FE4C7621C29A85900A6B68E /* yoohoo.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3FE4C7601C29A85900A6B68E /* yoohoo.m4a */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3F383B271C2AF2A5009CC5DB /* Orom.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Orom.atlas; sourceTree = "<group>"; };
+		3F383B281C2AF2A5009CC5DB /* Player.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Player.atlas; sourceTree = "<group>"; };
+		3F383B2B1C2AF514009CC5DB /* Field.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Field.png; sourceTree = "<group>"; };
 		3F7D1CC91C29899000B4F9CD /* Oromator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Oromator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F7D1CCD1C29899000B4F9CD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3F7D1CCF1C29899000B4F9CD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -35,8 +39,6 @@
 		3F7D1CDD1C29899000B4F9CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F7D1CE01C29899000B4F9CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3F7D1CE21C29899000B4F9CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3F7D1CE91C298B5400B4F9CD /* Field.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Field.png; sourceTree = "<group>"; };
-		3F7D1D131C2995A500B4F9CD /* Orom.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Orom.atlas; sourceTree = "<group>"; };
 		3FE4C75F1C29A85900A6B68E /* haha.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = haha.m4a; sourceTree = "<group>"; };
 		3FE4C7601C29A85900A6B68E /* yoohoo.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = yoohoo.m4a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -71,9 +73,10 @@
 		3F7D1CCB1C29899000B4F9CD /* Oromator */ = {
 			isa = PBXGroup;
 			children = (
+				3F383B271C2AF2A5009CC5DB /* Orom.atlas */,
+				3F383B281C2AF2A5009CC5DB /* Player.atlas */,
 				3F7D1CE81C298B3500B4F9CD /* Oromator_graphics */,
 				3F7D1CCF1C29899000B4F9CD /* AppDelegate.h */,
-				3F7D1D131C2995A500B4F9CD /* Orom.atlas */,
 				3F7D1CD01C29899000B4F9CD /* AppDelegate.m */,
 				3F7D1CD21C29899000B4F9CD /* GameScene.h */,
 				3F7D1CD31C29899000B4F9CD /* GameScene.m */,
@@ -100,9 +103,9 @@
 		3F7D1CE81C298B3500B4F9CD /* Oromator_graphics */ = {
 			isa = PBXGroup;
 			children = (
+				3F383B2B1C2AF514009CC5DB /* Field.png */,
 				3FE4C75F1C29A85900A6B68E /* haha.m4a */,
 				3FE4C7601C29A85900A6B68E /* yoohoo.m4a */,
-				3F7D1CE91C298B5400B4F9CD /* Field.png */,
 			);
 			name = Oromator_graphics;
 			sourceTree = "<group>";
@@ -165,10 +168,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F7D1CD61C29899000B4F9CD /* GameScene.sks in Resources */,
+				3F383B2C1C2AF514009CC5DB /* Field.png in Resources */,
 				3F7D1CE11C29899000B4F9CD /* LaunchScreen.storyboard in Resources */,
+				3F383B291C2AF2A5009CC5DB /* Orom.atlas in Resources */,
+				3F383B2A1C2AF2A5009CC5DB /* Player.atlas in Resources */,
 				3F7D1CDE1C29899000B4F9CD /* Assets.xcassets in Resources */,
-				3F7D1CEA1C298B5400B4F9CD /* Field.png in Resources */,
-				3F7D1D141C2995A500B4F9CD /* Orom.atlas in Resources */,
 				3FE4C7611C29A85900A6B68E /* haha.m4a in Resources */,
 				3F7D1CDC1C29899000B4F9CD /* Main.storyboard in Resources */,
 				3FE4C7621C29A85900A6B68E /* yoohoo.m4a in Resources */,
