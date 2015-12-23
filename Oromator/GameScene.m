@@ -35,6 +35,7 @@
     
     // UI
     UILabel*        startlabel;
+    SKLabelNode*    powerLabel;
     
     NSTimer*        mStartTimer;
     NSInteger       mStartupCounter;
@@ -65,6 +66,14 @@
     mTimerLabel.position = CGPointMake(self.frame.size.width / 2, self.frame.size.height - 146);
     [self addChild:mTimerLabel];
     mRunning = FALSE;
+    
+    // Add power label
+    powerLabel = [SKLabelNode labelNodeWithFontNamed:@"Verdana"];
+    powerLabel.text = @"POWER !";
+    powerLabel.fontColor = [UIColor blackColor];
+    powerLabel.fontSize = 35;
+    powerLabel.position = CGPointMake(100, self.frame.size.height - 146);
+    [self addChild:powerLabel];
     
     // Ice field
     mField = [SKSpriteNode spriteNodeWithImageNamed:@"Field"];
@@ -152,7 +161,14 @@
     {
         CGPoint newPostion = CGPointMake(mPlayer.position.x + 30, mPlayer.position.y);
         [mPlayer runAction:[SKAction moveTo:newPostion duration:0.25]];
+        
+        powerLabel.fontColor = [UIColor redColor];
     }
+}
+
+-(void)touchesEnded:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
+{
+    powerLabel.fontColor = [UIColor blackColor];
 }
 
 -(void)update:(CFTimeInterval)currentTime {
