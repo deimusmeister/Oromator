@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3F383B291C2AF2A5009CC5DB /* Orom.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 3F383B271C2AF2A5009CC5DB /* Orom.atlas */; settings = {ASSET_TAGS = (); }; };
-		3F383B2A1C2AF2A5009CC5DB /* Player.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 3F383B281C2AF2A5009CC5DB /* Player.atlas */; settings = {ASSET_TAGS = (); }; };
-		3F383B2C1C2AF514009CC5DB /* Field.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F383B2B1C2AF514009CC5DB /* Field.png */; settings = {ASSET_TAGS = (); }; };
+		3F383B291C2AF2A5009CC5DB /* Orom.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 3F383B271C2AF2A5009CC5DB /* Orom.atlas */; };
+		3F383B2A1C2AF2A5009CC5DB /* Player.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 3F383B281C2AF2A5009CC5DB /* Player.atlas */; };
+		3F383B2C1C2AF514009CC5DB /* Field.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F383B2B1C2AF514009CC5DB /* Field.png */; };
 		3F7D1CCE1C29899000B4F9CD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F7D1CCD1C29899000B4F9CD /* main.m */; };
 		3F7D1CD11C29899000B4F9CD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F7D1CD01C29899000B4F9CD /* AppDelegate.m */; };
 		3F7D1CD41C29899000B4F9CD /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F7D1CD31C29899000B4F9CD /* GameScene.m */; };
@@ -18,8 +18,8 @@
 		3F7D1CDC1C29899000B4F9CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F7D1CDA1C29899000B4F9CD /* Main.storyboard */; };
 		3F7D1CDE1C29899000B4F9CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F7D1CDD1C29899000B4F9CD /* Assets.xcassets */; };
 		3F7D1CE11C29899000B4F9CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F7D1CDF1C29899000B4F9CD /* LaunchScreen.storyboard */; };
-		3FE4C7611C29A85900A6B68E /* haha.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3FE4C75F1C29A85900A6B68E /* haha.m4a */; settings = {ASSET_TAGS = (); }; };
-		3FE4C7621C29A85900A6B68E /* yoohoo.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3FE4C7601C29A85900A6B68E /* yoohoo.m4a */; settings = {ASSET_TAGS = (); }; };
+		3FE4C7611C29A85900A6B68E /* haha.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3FE4C75F1C29A85900A6B68E /* haha.m4a */; };
+		3FE4C7621C29A85900A6B68E /* yoohoo.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3FE4C7601C29A85900A6B68E /* yoohoo.m4a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -141,6 +141,7 @@
 				TargetAttributes = {
 					3F7D1CC81C29899000B4F9CD = {
 						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = 9T6PTAG3YA;
 					};
 				};
 			};
@@ -299,6 +300,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9T6PTAG3YA;
 				INFOPLIST_FILE = Oromator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = LevonPoghosyan.Oromator;
@@ -310,6 +312,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9T6PTAG3YA;
 				INFOPLIST_FILE = Oromator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = LevonPoghosyan.Oromator;
